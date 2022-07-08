@@ -4,7 +4,7 @@
 
 
 function preload(){
-  tre=loadImage('tre.jpg')
+  loadImage('tre.jpg')
 
 }
 
