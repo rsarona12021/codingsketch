@@ -4,7 +4,7 @@ let tre
 
 
 function preload(){
-  treee=loadImage('tre.jpg')
+  tre=loadImage('tre.jpg')
 
 }
 
@@ -22,13 +22,13 @@ function draw(){
 
   fill(0)
   textSize(40)
-text("Press E to grow tree", windowWidth/2, 50)
+text("Press E to grow a tree", windowWidth/2, 50)
 
 
 
 
 if(key === 'e'){
-  image(treee, 500,500,400,300)
+  image(tre, 500,500,400,300)
 
 
 
